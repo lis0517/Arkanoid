@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Block">
+      <UniqueIdentifier>{7a63fedc-328c-46c7-b52b-4eb0ea27b762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Dlg">
+      <UniqueIdentifier>{56d458f2-27ee-4f88-b5da-fefabd5cd21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Global">
+      <UniqueIdentifier>{426e01ff-10d7-4a14-8cab-f56c5df6ce28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Global\Core">
+      <UniqueIdentifier>{cec67f2d-10a7-432f-ab22-5a1b305b7118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\MapTool">
+      <UniqueIdentifier>{a63fdce2-a132-4bf5-b2cb-4b120497a9f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cBlock.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgControl.h">
+      <Filter>헤더 파일\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>헤더 파일\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TSingle.h">
+      <Filter>헤더 파일\Global\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>헤더 파일\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBlock.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgControl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MapTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Map.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Nomal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Unique.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

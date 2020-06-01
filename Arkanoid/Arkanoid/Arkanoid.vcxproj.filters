@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Block">
+      <UniqueIdentifier>{4e5030e2-b9b6-414d-8866-07eedae3544b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Ingame">
+      <UniqueIdentifier>{4042ec6b-b929-4c48-b3c7-4e0ff7315de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Util">
+      <UniqueIdentifier>{9aef4cf3-27d6-4dc9-bdd2-4fc00b3f2e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Block">
+      <UniqueIdentifier>{9e5e3a2d-319f-47ca-b668-842d881c181a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Ingame">
+      <UniqueIdentifier>{fecc0fec-af98-43b2-843a-8c6b702f5da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{bfd6a6b3-f78b-4cdf-878f-778f5f3afbb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{eccb02cc-0997-4b3a-b924-d3a7497e882d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockMng.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>헤더 파일\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>헤더 파일\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="OutPut.h">
+      <Filter>헤더 파일\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TSingleton.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMng.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TMap.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="VictoryScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DefeatScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockMng.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>소스 파일\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>소스 파일\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="OutPut.cpp">
+      <Filter>소스 파일\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMng.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="VictoryScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DefeatScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Arkanoid.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\logo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\Title.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\button.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\64514.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
